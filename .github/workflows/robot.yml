@@ -1,0 +1,32 @@
+name: Training Robot Framework
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  robotframework:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: "3.12"
+    - name: Install pip dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Init browsers
+      run: rfbrowser init  
+    - name: Run Test and create report
+      run: python -m robot -d results -x junit-report.xml "tests"
+      continue-on-error: true
+    - name: Publish test results
+      uses: actions/upload-artifact@v4
+      with:
+        name: robot-test-results
+        path: results
