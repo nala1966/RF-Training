@@ -1,0 +1,7 @@
+{"level":30,"time":"2024-11-28T12:12:41.042Z","pid":9796,"hostname":"DESKTOP-UHEFVH1","msg":"Listening on 50994"}
+(node:9796) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-11-28T12:12:41.650Z","pid":9796,"hostname":"DESKTOP-UHEFVH1","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-11-28T12:12:43.445Z","pid":9796,"hostname":"DESKTOP-UHEFVH1","msg":"Adding browser to stack: chromium, version: 130.0.6723.31"}
+{"level":30,"time":"2024-11-28T12:12:43.446Z","pid":9796,"hostname":"DESKTOP-UHEFVH1","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-11-28T12:12:43.446Z","pid":9796,"hostname":"DESKTOP-UHEFVH1","msg":"Adding 0 contexts to browser"}

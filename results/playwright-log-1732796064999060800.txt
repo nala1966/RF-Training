@@ -1,0 +1,21 @@
+{"level":30,"time":"2024-11-28T12:14:34.407Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Listening on 51190"}
+(node:8480) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-11-28T12:14:34.859Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-11-28T12:14:35.333Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Adding browser to stack: chromium, version: 130.0.6723.31"}
+{"level":30,"time":"2024-11-28T12:14:35.335Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-11-28T12:14:35.334Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-11-28T12:14:35.348Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Start of node method newContext"}
+{"level":30,"time":"2024-11-28T12:14:35.349Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-11-28T12:14:35.349Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Trace file: "}
+{"level":30,"time":"2024-11-28T12:14:35.384Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Changed active context"}
+{"level":30,"time":"2024-11-28T12:14:35.390Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"End of node method newContext"}
+{"level":30,"time":"2024-11-28T12:14:35.407Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-11-28T12:14:35.408Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-11-28T12:14:36.188Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Video path: undefined"}
+{"level":30,"time":"2024-11-28T12:14:36.188Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Changed active page"}
+{"level":30,"time":"2024-11-28T12:14:37.526Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"End of node method newPage"}
+{"level":30,"time":"2024-11-28T12:14:37.543Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-28T12:14:37.544Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Strict mode is enabled, find Locator with [data-test='nav-contact'] in page."}
+{"level":30,"time":"2024-11-28T12:14:37.949Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"End of node method click"}
+{"level":30,"time":"2024-11-28T12:22:23.034Z","pid":8480,"hostname":"DESKTOP-UHEFVH1","msg":"Removed page=0dc41bfd-ba1c-4d8a-8f4e-5d9320fa0b64 from context=1b19272a-4c8c-4025-866b-f9ef8ae4acb1 page stack"}

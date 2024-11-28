@@ -1,0 +1,59 @@
+{"level":30,"time":"2024-11-20T19:48:04.051Z","pid":24540,"hostname":"DESKTOP-UHEFVH1","msg":"Listening on 63968"}
+(node:24540) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-11-20T19:48:04.262Z","pid":24540,"hostname":"DESKTOP-UHEFVH1","msg":"Start of node method click"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:9508:11)
+    at findLocator (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:9465:3)
+    at internalClick (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:10573:25)
+    at click (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:10556:24)
+    at PlaywrightServer.click (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:11611:34)
+    at Object.onReceiveHalfClose (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+=============================================================
+{"level":30,"time":"2024-11-20T19:48:04.263Z","pid":24540,"hostname":"DESKTOP-UHEFVH1","msg":"Error of node method  click"}
+{"level":30,"time":"2024-11-20T19:48:04.313Z","pid":24540,"hostname":"DESKTOP-UHEFVH1","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:9508:11)
+    at takeScreenshot (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:9552:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:11611:34)
+    at Object.onReceiveHalfClose (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2024-11-20T19:48:04.313Z","pid":24540,"hostname":"DESKTOP-UHEFVH1","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:10982:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:11598:59)
+    at PlaywrightServer.setTimeout (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:11837:57)
+    at Object.onReceiveHalfClose (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:10982:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:11598:59)
+    at PlaywrightServer.setTimeout (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\index.js:11837:57)
+    at Object.onReceiveHalfClose (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1425:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:569:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:609:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Naresh\RF-20-11-2024\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================

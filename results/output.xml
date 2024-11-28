@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-11-28T13:27:03.150223" rpa="false" schemaversion="5">
+<suite id="s1" name="RF-20-11-2024" source="C:\Users\Naresh\RF-20-11-2024">
+<suite id="s1-s1" name="Oefening1" source="C:\Users\Naresh\RF-20-11-2024\Oefening1.robot">
+<test id="s1-s1-t1" line="8">
+<status status="FAIL" start="2024-11-28T13:27:03.193266" elapsed="0.001475">Test name cannot be empty.</status>
+</test>
+<status status="FAIL" start="2024-11-28T13:27:03.189818" elapsed="0.006686"/>
+</suite>
+<status status="FAIL" start="2024-11-28T13:27:03.155895" elapsed="0.042479"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="RF-20-11-2024">RF-20-11-2024</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Oefening1">RF-20-11-2024.Oefening1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
