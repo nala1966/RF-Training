@@ -4,7 +4,7 @@ Test Setup    Open browser and set context
 
 *** Keywords ***
 Open browser and set context
-    New Browser    headless=False
+    New Browser    headless=True
     New Context    viewport={"width":1600 , "height":800 }
     New Page    https://practicesoftwaretesting.com
 
